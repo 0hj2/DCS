@@ -8,8 +8,7 @@ import matplotlib.pyplot as plt
 device = "raspberrypi"  # nexus5, nexus6p, rtac86u
 
 # 카테고리 순서 지정
-categories = ['vacant', 'studying','sleeping']
-#categories = ['vacant', 'studying']
+categories = ['loswalk', 'losup','losdown', 'losN']
 
 # 폴더 경로
 pcap_folder = r'C:/Users/HyejinPark/Desktop/data'   # PCAP 파일 폴더
@@ -70,4 +69,5 @@ for category in categories:
         print(f"Processed: {pcap_file_path}")
         print(f"CSV saved: {csv_file_path}")
         print(f"Heatmap saved: {save_path}")
+
 
