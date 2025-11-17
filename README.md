@@ -27,9 +27,8 @@
    - CNN 모델 입력 → 행동 분류 (Sitting, Walking, Standing, Empty)  
 4. **📱 사용자 인터페이스(UI)**: 실시간 행동 상태 표시 및 기록 제공  
 
-**그림 1. 무자각 환자 행동 모니터링 시스템 구조**  
-![System Diagram](figures/system_diagram.png)  
-
+**그림 1. 무자각 환자 행동 모니터링 시스템 구조**   
+<img src="figures/system_diagram.png" alt="System Diagram" width="300px">
 ---
 
 ## ⚙ 구현 및 실험
@@ -60,7 +59,7 @@
 - 결과: 총 2,000 이미지 중 **1,770개 올바르게 분류** (**정확도 88.5%**)  
 
 **그림 2. CNN 모델 구조**  
-![CNN Model](figures/cnn_model.png)  
+<img src="figures/cnn_model.png" alt="System Diagram" width="300px">
 
 **표 1. 행동 분류 결과**
 
@@ -77,8 +76,7 @@
 - 마지막 업데이트 시간 및 행동 기록 순서 표시  
 
 **그림 3. 사용자 인터페이스**  
-![UI Screenshot](figures/ui_screenshot.png)  
-
+<img src="figures/ui_screenshot.png" alt="System Diagram" width="300px">
 ---
 
 ## 📊 결론
